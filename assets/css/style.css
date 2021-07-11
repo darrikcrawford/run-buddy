@@ -8,7 +8,7 @@
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
-  }
+}
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
@@ -178,6 +178,7 @@ section {
     font-size: 16px;
     border-radius: 10px;
 }
+
 .hero-form button:hover {
     background-color: var(--tertiary-color);  
 }
@@ -435,6 +436,7 @@ section {
     border-radius: 10px;
     background-color: rgba(255,255,255, 0.75);
 }
+
 .contact-form input:focus, .contact-form textarea:focus {
     background-color: rgba(255,255,255, 1);
     outline: none;
@@ -450,6 +452,7 @@ section {
     font-size: 16px;
     border-radius: 10px;
 }
+
 .contact-form button:hover {
     color: var(--primary-color);
     background: var(--tertiary-color);
@@ -486,7 +489,7 @@ section {
 
     .hero-cta, .hero-form {
         width: 100%;
-      }
+    }
       
     .hero-cta {
         text-align: center;
@@ -509,7 +512,7 @@ section {
   @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
-      }    
+    }    
 
     .step h3 {
         flex: 1 100%;
